@@ -66,14 +66,14 @@ export default function IntegrationsCarousel() {
 
   return (
     <>
-      <div className="stellar-carousel swiper-container group">
+{/*       <div className="stellar-carousel swiper-container group">
         <div className="swiper-wrapper w-fit">
-          {/* Carousel items */}
+          Carousel items
           <div className="swiper-slide h-auto bg-gradient-to-tr from-slate-800 to-slate-800/25 rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
             <div className="flex flex-col p-5 h-full">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="relative">
-{/*                   <Image src={IntegrationImg01} width={40} height={40} alt="Icon 01" /> */}
+                  <Image src={IntegrationImg01} width={40} height={40} alt="Icon 01" />
                   <Image className="absolute top-0 -right-1" src={Star} width={16} height={16} alt="Star" aria-hidden="true" />
                 </div>
                 <Link className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0" href="/integrations/single-post">Retool</Link>
@@ -102,7 +102,7 @@ export default function IntegrationsCarousel() {
             <div className="flex flex-col p-5 h-full">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="relative">
-{/*                   <Image src={IntegrationImg02} width={40} height={40} alt="Icon 02" /> */}
+                  <Image src={IntegrationImg02} width={40} height={40} alt="Icon 02" />
                   <Image className="absolute top-0 -right-1" src={Star} width={16} height={16} alt="Star" aria-hidden="true" />
                 </div>
                 <Link className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0" href="/integrations/single-post">Zapier</Link>
@@ -130,7 +130,7 @@ export default function IntegrationsCarousel() {
             <div className="flex flex-col p-5 h-full">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="relative">
-{/*                   <Image src={IntegrationImg03} width={40} height={40} alt="Icon 03" /> */}
+                  <Image src={IntegrationImg03} width={40} height={40} alt="Icon 03" />
                   <Image className="absolute top-0 -right-1" src={Star} width={16} height={16} alt="Star" aria-hidden="true" />
                 </div>
                 <Link className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0" href="/integrations/single-post">Airtable</Link>
@@ -159,7 +159,7 @@ export default function IntegrationsCarousel() {
             <div className="flex flex-col p-5 h-full">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="relative">
-{/*                   <Image src={IntegrationImg04} width={40} height={40} alt="Icon 04" /> */}
+                  <Image src={IntegrationImg04} width={40} height={40} alt="Icon 04" />
                   <Image className="absolute top-0 -right-1" src={Star} width={16} height={16} alt="Star" aria-hidden="true" />
                 </div>
                 <Link className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0" href="/integrations/single-post">Jira</Link>
@@ -188,7 +188,7 @@ export default function IntegrationsCarousel() {
             <div className="flex flex-col p-5 h-full">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="relative">
-{/*                   <Image src={IntegrationImg05} width={40} height={40} alt="Icon 05" /> */}
+                  <Image src={IntegrationImg05} width={40} height={40} alt="Icon 05" />
                   <Image className="absolute top-0 -right-1" src={Star} width={16} height={16} alt="Star" aria-hidden="true" />
                 </div>
                 <Link className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0" href="/integrations/single-post">GitLab</Link>
@@ -216,7 +216,7 @@ export default function IntegrationsCarousel() {
         </div>
       </div>
 
-      {/* Arrows */}
+      Arrows
       <div className="flex py-8 justify-end">
         <button className="carousel-prev relative z-20 w-12 h-12 flex items-center justify-center group">
           <span className="sr-only">Previous</span>
@@ -231,7 +231,7 @@ export default function IntegrationsCarousel() {
           </svg>
         </button>
       </div>
-
+ */}
     </>
   )
 }

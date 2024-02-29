@@ -10,98 +10,98 @@ import Image from "next/image";
 // import CustomerImg09 from "@/public/images/customer-09.jpg";
 
 export default function Customers() {
-  const items = [
-    {
-      img: CustomerImg01,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Mike Smets",
-      twitter: {
-        handle: "@MikeSmets",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg02,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Mike Bryan",
-      twitter: {
-        handle: "@mike0point7",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg03,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Liz Park",
-      twitter: {
-        handle: "@liz-park82",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg04,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Jessie Maison",
-      twitter: {
-        handle: "@jessiem9",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg05,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Devani Janssen",
-      twitter: {
-        handle: "@deva07p",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg06,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Mark Gerkules",
-      twitter: {
-        handle: "@mark-gerk",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg07,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Andrey Propenk",
-      twitter: {
-        handle: "@andrey-prok",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg08,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Jay Master",
-      twitter: {
-        handle: "@masterpro",
-        link: "#0",
-      },
-    },
-    {
-      img: CustomerImg09,
-      quote:
-        "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Steve Wolf",
-      twitter: {
-        handle: "@imsteve",
-        link: "#0",
-      },
-    },
-  ];
+  // const items = [
+  //   {
+  //     img: CustomerImg01,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Mike Smets",
+  //     twitter: {
+  //       handle: "@MikeSmets",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg02,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Mike Bryan",
+  //     twitter: {
+  //       handle: "@mike0point7",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg03,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Liz Park",
+  //     twitter: {
+  //       handle: "@liz-park82",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg04,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Jessie Maison",
+  //     twitter: {
+  //       handle: "@jessiem9",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg05,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Devani Janssen",
+  //     twitter: {
+  //       handle: "@deva07p",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg06,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Mark Gerkules",
+  //     twitter: {
+  //       handle: "@mark-gerk",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg07,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Andrey Propenk",
+  //     twitter: {
+  //       handle: "@andrey-prok",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg08,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Jay Master",
+  //     twitter: {
+  //       handle: "@masterpro",
+  //       link: "#0",
+  //     },
+  //   },
+  //   {
+  //     img: CustomerImg09,
+  //     quote:
+  //       "I love Stellar, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+  //     name: "Steve Wolf",
+  //     twitter: {
+  //       handle: "@imsteve",
+  //       link: "#0",
+  //     },
+  //   },
+  // ];
 
   return (
     <section className="relative">

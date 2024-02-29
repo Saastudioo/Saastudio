@@ -1,13 +1,13 @@
 import Image from "next/image";
-import CustomerImg01 from "@/public/images/customer-01.jpg";
-import CustomerImg02 from "@/public/images/customer-02.jpg";
-import CustomerImg03 from "@/public/images/customer-03.jpg";
-import CustomerImg04 from "@/public/images/customer-04.jpg";
-import CustomerImg05 from "@/public/images/customer-05.jpg";
-import CustomerImg06 from "@/public/images/customer-06.jpg";
-import CustomerImg07 from "@/public/images/customer-07.jpg";
-import CustomerImg08 from "@/public/images/customer-08.jpg";
-import CustomerImg09 from "@/public/images/customer-09.jpg";
+// import CustomerImg01 from "@/public/images/customer-01.jpg";
+// import CustomerImg02 from "@/public/images/customer-02.jpg";
+// import CustomerImg03 from "@/public/images/customer-03.jpg";
+// import CustomerImg04 from "@/public/images/customer-04.jpg";
+// import CustomerImg05 from "@/public/images/customer-05.jpg";
+// import CustomerImg06 from "@/public/images/customer-06.jpg";
+// import CustomerImg07 from "@/public/images/customer-07.jpg";
+// import CustomerImg08 from "@/public/images/customer-08.jpg";
+// import CustomerImg09 from "@/public/images/customer-09.jpg";
 
 export default function Customers() {
   const items = [
@@ -129,7 +129,7 @@ export default function Customers() {
           </div>
           {/* Customers */}
           <div className="grid lg:grid-cols-3 gap-4 sm:gap-6 max-w-xs mx-auto lg:max-w-none">
-            {items.map((item, index) => (
+{/*             {items.map((item, index) => (
               <div
                 key={index}
                 className="relative p-5 before:absolute before:inset-0 before:-z-10 before:border before:border-slate-300 before:bg-slate-700 before:opacity-10 before:rounded-xl"
@@ -169,7 +169,7 @@ export default function Customers() {
                 </div>
                 <p className="text-sm text-slate-400">{item.quote}</p>
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>
